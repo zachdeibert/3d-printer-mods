@@ -187,6 +187,71 @@
 <smd name="3" x="1.0783" y="0" dx="1.0588" dy="0.59" layer="1"/>
 <text x="0" y="2.634" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="SOLDER-JUMPER-DUAL">
+<rectangle x1="-3.302" y1="-1.397" x2="3.302" y2="1.397" layer="29"/>
+<polygon width="0" layer="1">
+<vertex x="3.175" y="1.27"/>
+<vertex x="3.175" y="0.762"/>
+<vertex x="1.143" y="0.762"/>
+<vertex x="1.143" y="-0.127"/>
+<vertex x="2.413" y="-0.127"/>
+<vertex x="2.413" y="-0.508"/>
+<vertex x="0.508" y="-0.508"/>
+<vertex x="0.508" y="-1.27"/>
+<vertex x="-3.175" y="-1.27"/>
+<vertex x="-3.175" y="-0.762"/>
+<vertex x="-1.143" y="-0.762"/>
+<vertex x="-1.143" y="0.127"/>
+<vertex x="-2.413" y="0.127"/>
+<vertex x="-2.413" y="0.508"/>
+<vertex x="-0.508" y="0.508"/>
+<vertex x="-0.508" y="1.27"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="-3.175" y="-0.508"/>
+<vertex x="-1.397" y="-0.508"/>
+<vertex x="-1.397" y="-0.127"/>
+<vertex x="-2.667" y="-0.127"/>
+<vertex x="-2.667" y="0.762"/>
+<vertex x="-0.762" y="0.762"/>
+<vertex x="-0.762" y="1.27"/>
+<vertex x="-3.175" y="1.27"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="0.762" y="-0.762"/>
+<vertex x="0.762" y="-1.27"/>
+<vertex x="3.175" y="-1.27"/>
+<vertex x="3.175" y="0.508"/>
+<vertex x="1.397" y="0.508"/>
+<vertex x="1.397" y="0.127"/>
+<vertex x="2.667" y="0.127"/>
+<vertex x="2.667" y="-0.762"/>
+</polygon>
+<smd name="C" x="0" y="0" dx="1.9304" dy="0.9652" layer="1" rot="R180"/>
+<smd name="1" x="-2.8575" y="0.3175" dx="0.6096" dy="0.3048" layer="1" rot="R270"/>
+<smd name="2" x="2.8575" y="-0.3175" dx="0.6096" dy="0.3048" layer="1" rot="R270"/>
+<text x="0" y="1.5875" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="JST-PH6" urn="urn:adsk.eagle:footprint:16196399/1" locally_modified="yes">
+<description>Single-row, 6-pin Receptacle Header (Female) Straight, 2.00 mm (0.08 in) col pitch, 6.00 mm insulator length, 13.90 X 5.60 X 6.00 mm body
+&lt;p&gt;Single-row (1X6), 6-pin Receptacle Header (Female) Straight package with 2.00 mm (0.08 in) col pitch, 0.50 mm lead width, 3.40 mm tail length and 6.00 mm insulator length with overall size 13.90 X 5.60 X 6.00 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="-5.08" y="3.304" radius="0.25" width="0" layer="21"/>
+<wire x1="6.87" y1="-2.8" x2="-7.03" y2="-2.8" width="0.12" layer="21"/>
+<wire x1="-7.03" y1="-2.8" x2="-7.03" y2="2.8" width="0.12" layer="21"/>
+<wire x1="-7.03" y1="2.8" x2="6.87" y2="2.8" width="0.12" layer="21"/>
+<wire x1="6.87" y1="2.8" x2="6.87" y2="-2.8" width="0.12" layer="21"/>
+<wire x1="6.87" y1="-2.8" x2="-7.03" y2="-2.8" width="0.12" layer="51"/>
+<wire x1="-7.03" y1="-2.8" x2="-7.03" y2="2.8" width="0.12" layer="51"/>
+<wire x1="-7.03" y1="2.8" x2="6.87" y2="2.8" width="0.12" layer="51"/>
+<wire x1="6.87" y1="2.8" x2="6.87" y2="-2.8" width="0.12" layer="51"/>
+<pad name="1" x="-5.08" y="0" drill="0.9071" diameter="1.5071"/>
+<pad name="2" x="-3.08" y="0" drill="0.9071" diameter="1.5071"/>
+<pad name="3" x="-1.08" y="0" drill="0.9071" diameter="1.5071"/>
+<pad name="4" x="0.92" y="0" drill="0.9071" diameter="1.5071"/>
+<pad name="5" x="2.92" y="0" drill="0.9071" diameter="1.5071"/>
+<pad name="6" x="4.92" y="0" drill="0.9071" diameter="1.5071"/>
+<text x="-5.08" y="4.189" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRVR16W64P1270X254_2X8_2032X1524X254B" urn="urn:adsk.eagle:package:16188684/1" type="model">
@@ -215,6 +280,13 @@
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.30 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="MMBT3904,215"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRVR6W50P200_1X6_1390X560X600B" urn="urn:adsk.eagle:package:16196389/1" type="model">
+<description>Single-row, 6-pin Receptacle Header (Female) Straight, 2.00 mm (0.08 in) col pitch, 6.00 mm insulator length, 13.90 X 5.60 X 6.00 mm body
+&lt;p&gt;Single-row (1X6), 6-pin Receptacle Header (Female) Straight package with 2.00 mm (0.08 in) col pitch, 0.50 mm lead width, 3.40 mm tail length and 6.00 mm insulator length with overall size 13.90 X 5.60 X 6.00 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="JST-PH6"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -310,6 +382,45 @@
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+<symbol name="SOLDER-JUMPER-DUAL">
+<text x="0" y="0.9525" size="1.016" layer="95" align="bottom-center">&gt;NAME</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0.635" x2="1.27" y2="0" width="0.1524" layer="94" curve="-90"/>
+<wire x1="1.27" y1="0" x2="0.635" y2="-0.635" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-0.635" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-1.27" y1="0" x2="-0.635" y2="0.635" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<pin name="C" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
+<wire x1="-0.3175" y1="0.635" x2="0.3175" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0.3175" y1="0.635" x2="0.3175" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="0.3175" y1="-0.635" x2="0" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.635" x2="-0.3175" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="-0.635" x2="-0.3175" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.635" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="JST-PH6">
+<pin name="P$1" x="2.54" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="P$2" x="2.54" y="5.08" visible="off" length="short" direction="pas"/>
+<pin name="P$3" x="2.54" y="7.62" visible="off" length="short" direction="pas"/>
+<pin name="P$4" x="2.54" y="10.16" visible="off" length="short" direction="pas"/>
+<pin name="P$5" x="2.54" y="12.7" visible="off" length="short" direction="pas"/>
+<pin name="P$6" x="2.54" y="15.24" visible="off" length="short" direction="pas"/>
+<circle x="6.0325" y="2.54" radius="0.9525" width="0.1524" layer="94"/>
+<circle x="6.0325" y="5.08" radius="0.9525" width="0.1524" layer="94"/>
+<circle x="6.0325" y="7.62" radius="0.9525" width="0.1524" layer="94"/>
+<circle x="6.0325" y="10.16" radius="0.9525" width="0.1524" layer="94"/>
+<circle x="6.0325" y="12.7" radius="0.9525" width="0.1524" layer="94"/>
+<circle x="6.0325" y="15.24" radius="0.9525" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="17.78" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -501,6 +612,46 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="SOLDER-JUMPER-DUAL" prefix="J">
+<gates>
+<gate name="G$1" symbol="SOLDER-JUMPER-DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOLDER-JUMPER-DUAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-PH6" prefix="J">
+<gates>
+<gate name="G$1" symbol="JST-PH6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST-PH6">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16196389/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -547,6 +698,9 @@
 <part name="Q3" library="z-axis-duplicator" deviceset="MMBT3904,215" device="MMBT3904,215" package3d_urn="urn:adsk.eagle:package:12395711/1"/>
 <part name="GND9" library="z-axis-duplicator" deviceset="GND" device=""/>
 <part name="R8" library="z-axis-duplicator" deviceset="RESISTOR" device="0805" value="20k"/>
+<part name="J2" library="z-axis-duplicator" deviceset="SOLDER-JUMPER-DUAL" device=""/>
+<part name="J3" library="z-axis-duplicator" deviceset="SOLDER-JUMPER-DUAL" device=""/>
+<part name="J4" library="z-axis-duplicator" deviceset="JST-PH6" device="" package3d_urn="urn:adsk.eagle:package:16196389/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -680,7 +834,6 @@
 <sheet>
 <description>Duplicated Driver</description>
 <plain>
-<text x="20.32" y="-2.54" size="1.778" layer="91" rot="R270" align="center">TODO</text>
 </plain>
 <instances>
 <instance part="A2" gate="G$1" x="-17.78" y="-15.24" smashed="yes">
@@ -703,6 +856,15 @@
 <instance part="GND4" gate="1" x="-12.7" y="12.7" smashed="yes"/>
 <instance part="GND5" gate="1" x="12.7" y="12.7" smashed="yes"/>
 <instance part="GND6" gate="1" x="0" y="-20.32" smashed="yes"/>
+<instance part="J2" gate="G$1" x="35.56" y="2.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.5125" y="2.54" size="1.016" layer="95" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="J3" gate="G$1" x="35.56" y="-7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.5125" y="-7.62" size="1.016" layer="95" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="J4" gate="G$1" x="55.88" y="-10.16" smashed="yes">
+<attribute name="NAME" x="55.88" y="7.62" size="1.27" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -802,6 +964,91 @@
 <pinref part="A2" gate="G$1" pin="DIR"/>
 <wire x1="33.02" y1="5.08" x2="17.78" y2="5.08" width="0.1524" layer="91"/>
 <label x="20.32" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="1A" class="0">
+<segment>
+<pinref part="A2" gate="G$1" pin="1A"/>
+<wire x1="17.78" y1="0" x2="27.94" y2="0" width="0.1524" layer="91"/>
+<label x="20.32" y="0" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="P$6"/>
+<wire x1="58.42" y1="5.08" x2="53.34" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="5.08" x2="53.34" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="P$5"/>
+<wire x1="53.34" y1="2.54" x2="58.42" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="5.08" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
+<junction x="53.34" y="5.08"/>
+<label x="48.26" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="2B" class="0">
+<segment>
+<pinref part="A2" gate="G$1" pin="2B"/>
+<wire x1="17.78" y1="-7.62" x2="27.94" y2="-7.62" width="0.1524" layer="91"/>
+<label x="20.32" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="P$2"/>
+<wire x1="58.42" y1="-5.08" x2="53.34" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-5.08" x2="53.34" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="P$1"/>
+<wire x1="53.34" y1="-7.62" x2="58.42" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-7.62" x2="48.26" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="53.34" y="-7.62"/>
+<label x="48.26" y="-7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="A2" gate="G$1" pin="1B"/>
+<wire x1="17.78" y1="-2.54" x2="30.48" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-2.54" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="C"/>
+<wire x1="30.48" y1="2.54" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="A2" gate="G$1" pin="2A"/>
+<wire x1="17.78" y1="-5.08" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="C"/>
+<wire x1="30.48" y1="-5.08" x2="30.48" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-7.62" x2="33.02" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="1B" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="0" x2="35.56" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-2.54" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-2.54" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="35.56" y="-2.54"/>
+<label x="38.1" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="P$4"/>
+<wire x1="58.42" y1="0" x2="48.26" y2="0" width="0.1524" layer="91"/>
+<label x="48.26" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="2A" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="-10.16" x2="35.56" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-12.7" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-12.7" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="7.62" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="7.62" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
+<label x="38.1" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="P$3"/>
+<wire x1="58.42" y1="-2.54" x2="48.26" y2="-2.54" width="0.1524" layer="91"/>
+<label x="48.26" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
